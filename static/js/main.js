@@ -13,7 +13,7 @@ document.getElementById('js-clicker').addEventListener('click',()=> {
         return response.json()
     })
     .then(data => {
-        console.log(JSON.stringify(data))
+        console.log(data)
     })
 })
 
